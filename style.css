@@ -1,0 +1,60 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, #000000, #1d0000);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-heading h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.main-heading p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.buttons button, #homeButton,#discordButton {
+    background: linear-gradient(135deg, #161616, #0f0f0f);
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons button:hover, #homeButton:hover,#discordButton:hover {
+    background: linear-gradient(135deg, #ffe0e0, #ffffff);
+    color:black;
+}
+
+.hidden {
+    display: none;
+}
+
+#content img {
+    max-width: 60%;
+    height: auto;
+}
