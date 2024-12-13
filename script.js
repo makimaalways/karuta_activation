@@ -10,7 +10,7 @@ discordButton.classList.add("hidden");
 document.body.appendChild(discordButton);
 
 const image1 = "Image/DiscordAccount.png"; 
-const image2 = "Image/PriceChart.png"; 
+const image2 = "Image/PriceChart2.png"; 
 
 beginButton.addEventListener("click", () => {
     content.innerHTML = `<img src="${image1}" alt="Karuta account activation on Discord">`;
