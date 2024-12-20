@@ -9,7 +9,7 @@ discordButton.id = "discordButton";
 discordButton.classList.add("hidden");
 document.body.appendChild(discordButton);
 
-const image1 = "Image/DiscordAccount.png"; 
+const image1 = "Image/ContactMeImage.png"; 
 const image2 = "Image/PriceChart2.png"; 
 
 beginButton.addEventListener("click", () => {
