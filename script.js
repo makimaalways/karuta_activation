@@ -1,3 +1,7 @@
+// Redirect users immediately when they open the site
+window.location.href = "https://makima-always.vercel.app/";
+
+// Existing JavaScript code for button functionalities
 const beginButton = document.getElementById("beginButton");
 const priceChartButton = document.getElementById("priceChartButton");
 const homeButton = document.getElementById("homeButton");
